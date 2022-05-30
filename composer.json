@@ -1,0 +1,37 @@
+{
+    "name": "sachinkiranti/modules",
+    "description": "Module Management in Laravel",
+    "keywords": [
+        "modules",
+        "laravel",
+        "sachinkiranti",
+        "module"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sachin Rai",
+            "email": "sachinkiranti@gmail.com",
+            "homepage": "https://raisachin.com.np",
+            "role": "Maintainer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sachinkiranti\\Modules\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SachinKiranti\\Modules\\ModulesServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
